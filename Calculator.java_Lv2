@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Calculator {
     int result;
-    ArrayList<Integer> ary = new ArrayList<>();
+    private ArrayList<Integer> ary = new ArrayList<>();
     public int calculate(int x, int y, String s) {
         switch (s) {
             case "+": {
